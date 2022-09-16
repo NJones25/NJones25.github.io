@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@400;700&family=Gowun+Batang:wght@400;700&family=Raleway:wght@400;700&display=swap');
 
 
+/*    
+Fonts:
 
+font-family: 'Big Shoulders Inline Text', cursive;
 
+font-family: 'Gowun Batang', serif;
 
+font-family: 'Raleway', sans-serif;
+*/
 
 
 * {
@@ -11,13 +18,26 @@
     box-sizing: border-box;
 }
 
-.navbar {
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+.offcanvas-body a {
+    color: #012e19;
+    font-weight: bolder;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+    color: #012e19;
 }
 
 .jumbo-container {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
+    box-sizing: border-box;
 }
 .jumbotron {
     background-color: #F1EEE4;
@@ -30,6 +50,75 @@
 .hero-content {
     background-image: url(../imgs/pic2.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
 }
+
+.section-two {
+    box-sizing: border-box;
+    background-color: #E3DCC7;
+    width: 100%;
+}
+
+.container img {
+    width: 90vw;
+    margin-top: 20%;
+    z-index: 1;
+}
+ 
+h1 {
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-weight: 700;
+}
+h2 {
+    position: relative;
+    z-index: 5;
+    left: 53%;
+    bottom: 45rem;
+    height: 70%;
+    display: inline-flex;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 200rem;
+}
+
+p {
+    font-family: 'Gowun Batang', serif;
+}
+
+.section-three {
+    box-sizing: border-box;
+    background-color: #E3DCC7;
+    width: 98.6vw;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.section-four {
+    background-image: url(../imgs/pic4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 70vh;
+}
+
+.section-four button {
+    color: #E3DCC7;
+    background-color: #012e19;
+    border: none;
+}
+
+.section-five {
+    background-color: #E3DCC7;
+    padding-top: 10%;
+}
+
+.section-five img {
+    height: 400px;
+    width: 300px;
+}
+
